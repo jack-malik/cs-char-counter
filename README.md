@@ -2,11 +2,6 @@
 # cs-char-counter
 
 # ------------------------------------------------------------------
-# PURPOSE
-# ------------------------------------------------------------------
-This repository is for implementation of Credit-Suisse coding exercise.
-
-# ------------------------------------------------------------------
 # SPEC
 # ------------------------------------------------------------------
 Given a sorted array of N elements with duplicates, for example:
@@ -22,11 +17,6 @@ generated, sorted array.
 # ------------------------------------------------------------------
 # IMPLEMENTATION NOTE
 # ------------------------------------------------------------------
-The test driver makes use of the App class implementing a bare
-minimum of methods to implement task. All methods are implemented
-as static as the App class object has no state to maintain and no
-data members except for the Credit-Suisse provided test string used
-for unit testing.
 
 For simplicity we create an input to the counting method limited
 to subset of ASCII characters from '0' to 'z' but that does not
